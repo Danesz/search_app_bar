@@ -72,7 +72,7 @@ class SearchWidget extends StatelessWidget implements PreferredSizeWidget {
     return Expanded(
       child: Padding(
         padding: EdgeInsets.only(
-          bottom: 13.0,
+          bottom: 8.0,
         ),
         child: StreamBuilder<String>(
           stream: bloc.searchQuery,
